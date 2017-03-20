@@ -1,9 +1,8 @@
 package kh.com.gbstehcnology.toolbar;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -14,11 +13,17 @@ public class MainActivity extends AppCompatActivity {
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayShowTitleEnabled(false);
+
+//        getSupportActionBar().setDisplayShowHomeEnabled(true);
+//        getSupportActionBar().setLogo(R.mipmap.ic_launcher);
+//        getSupportActionBar().setDisplayUseLogoEnabled(true);
+
+
+//        getSupportActionBar().setDisplayShowTitleEnabled(false);
 //        getSupportActionBar().setTitle("Action");
 
-        TextView tvTitle = (TextView) toolbar.findViewById(R.id.tv_title);
-        tvTitle.setText("HELLO");
+//        TextView tvTitle = (TextView) toolbar.findViewById(R.id.tv_title);
+//        tvTitle.setText("HELLO");
 
     }
 
